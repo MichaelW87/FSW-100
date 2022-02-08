@@ -1,0 +1,42 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+.text-color{
+    color: green;
+    text-align: center;
+}
+
+body {
+    background-color: cyan
+}
+
+h1,h2,h3{
+    font-family: "Georgia";
+}
+
+p {
+    line-height: 20px; 
+}
+
+b {
+    color: lightcoral;
+}
+
+#caps{
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div > img {
+    float: left;
+    padding: 20px;
+}
