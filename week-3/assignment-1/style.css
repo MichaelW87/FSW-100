@@ -5,11 +5,14 @@ h1{
 
 .text-color{
     color: green;
+}
+
+.aligncenter {
     text-align: center;
 }
 
 body {
-    background-color: cyan
+    background-color: lightcyan
 }
 
 h1,h2,h3{
@@ -38,5 +41,9 @@ a:hover {
 
 div > img {
     float: left;
-    padding: 20px;
+    padding: 8px;
+}
+
+ol {
+    list-style-type: disc;
 }
