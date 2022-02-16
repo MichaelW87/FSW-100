@@ -1,0 +1,85 @@
+* {
+    background-color: lightslategrey;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.pics {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    float: left;
+    position: relative;
+    top: -90px;
+    background-color: rgb(255,255,255, .00);
+}
+
+.blog {
+    width: 800px;
+    height: 280px;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10%;
+    background-color: white;
+    
+}
+
+.title {
+   background-color: white;
+   text-align: center;
+}
+
+.para{
+    font-size: 20px;
+    background-color: white;
+}
+ .date {
+     text-align: center;
+     background-color: white;
+     font-size: 15px;
+ }
+
+ .nav-bar {
+     position: fixed;
+     width: 100%;
+     background-color: rgb(83,86,92,.4);
+ }
+
+a {
+    background-color: rgb(83,86,92,.4);
+    position: relative;
+}
+
+.about {
+    position: relative;
+    left: 625px;
+    font-size:xx-large;
+    text-decoration: none;
+}
+
+.about:hover {
+    text-decoration: underline;
+} 
+
+.menu {
+    position: relative;
+    left: 325px;
+    font-size:xx-large;
+    text-decoration: none;
+}
+
+.menu:hover {
+    text-decoration: underline;
+} 
+
+.home {
+    font-size:xx-large;
+    text-decoration: none;
+    background-color: .4;
+}
+
+.home:hover {
+    text-decoration: underline;
+} 
