@@ -1,0 +1,150 @@
+body {
+    font-family: 'nanum gothic', sans-serif;
+
+}
+
+* {
+    background-color: lightskyblue;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.schedule {
+    position: relative;
+    left: 730px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.schedule:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    position: relative;
+    left: 370px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+.home {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+
+main {
+    position: relative;
+    top: 25px;
+}
+
+#main {
+    text-align: center;
+    padding: 15px;
+}
+
+#headPic {
+    height: 400px;
+    width: 930px;
+}
+
+#about {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#aboutPic {
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#para1 {
+    float: right;
+    font-size: 20px;
+    padding: 12px;
+    margin: 15px;
+}
+
+#item {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#tablePic {
+    height: 300px;
+    width: 300px;
+    float: right;
+    position: relative;
+    left: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+ul {
+    float: right;
+    position: relative;
+    top: -400px;
+    left: -100px;
+    font-size: 30px;
+}
+
+#listPic {
+    height: 400px;
+    width: 400px;
+    margin: 15px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 200px;
+    margin: 50px;
+    padding: 30px;
+}
+
+th, td {
+    border: 3px solid black;
+    margin: 2px;
+    padding: 2px;
+}
+
+#price {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+    left: 150px;
+}
+
+footer {
+    bottom: 10px;
+}
+
+#para2 {
+    margin: 50px;
+}
