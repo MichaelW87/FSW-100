@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(127, 246, 255);
+    font-family: 'Comic Neue', cursive;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#para1 {
+    float: right;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    height: 50px;
+    font-size: 20px
+}
+
+.home, .stats, .schedule {
+    text-decoration: none;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .header {
+      color: blue;
+      text-align: center;
+  }
