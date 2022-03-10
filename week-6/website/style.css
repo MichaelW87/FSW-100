@@ -1,62 +1,102 @@
 body {
     background-color: rgb(127, 246, 255);
     font-family: 'Comic Neue', cursive;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    float: left;
-}
-#para1 {
-    float: right;
+    display:grid;
+    grid-template-columns: auto;
 }
 
 .nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: lightblue;
-    height: 50px;
-    font-size: 20px
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: lightblue;
+  height: 50px;
+  font-size: 20px
 }
-
-.home, .stats, .schedule {
-    text-decoration: none;
+.header {
+  color: blue;
+  text-align: center;
+  margin-top: 70px;
+ }
+.logo {
+  width: 100px;
+  height: 100px;
+  float: left;
 }
-
 img {
     width: 150px;
     height: 150px;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  grid-row: 10/11;
+}
 
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
 
-  .header {
-      color: blue;
-      text-align: center;
+@media screen and (min-width: 786px) {
+  body{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
   }
+  .header{
+    grid-column: 1/4;
+  }
+  .content{
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  footer{
+    grid-column: 1/4;
+  }
+}
+
+@media screen and (min-width: 1386px) {
+  body{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .header{
+    grid-column: 1/5;
+  }
+  .content{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: aqua;
+  }
+  .cod{
+    position: relative;
+    right: -325px;
+  }
+  .lol{
+    position: relative;
+    right: -325px;
+  }
+}
