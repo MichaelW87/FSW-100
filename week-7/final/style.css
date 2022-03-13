@@ -1,6 +1,7 @@
 body {
     background-color: rgb(127, 246, 255);
     font-family: 'Comic Neue', cursive;
+
     display:grid;
     grid-template-columns: auto;
 }
@@ -15,7 +16,16 @@ body {
   justify-content: space-evenly;
   background-color: lightblue;
   height: 50px;
-  font-size: 20px
+  font-size: 20px;
+}
+.home, .schedule, .stats{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.home:hover, .schedule:hover, .stats:hover{
+  text-decoration: underline;
+  transition-delay: 200ms;
 }
 .header {
   color: blue;
@@ -57,6 +67,15 @@ img {
 .fa-youtube {
   background: #bb0000;
   color: white;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  font-size: 25px;
+  margin: 30px;
+  align-content: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 786px) {
@@ -105,5 +124,9 @@ img {
   #para1{
     font-size: 30px;
   }
-
+  table{
+    grid-column: 1/5;
+    align-items: center;
+    text-align: center;
+  }
 }
